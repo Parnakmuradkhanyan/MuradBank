@@ -1,0 +1,50 @@
+.top-decoration-circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.bottom-decoration-circles{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.elements-of-control{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.welcome-create-account-button{
+    padding: 13px 31px 13px 32px;
+    margin: 0 auto;
+    background-color: red;
+    border-radius: 23px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    display: flex;
+    justify-content: center;
+
+}
+.logo-welcome{
+    width: 281px;
+    height: 69px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 41px;
+}
+.welcome-create-account-button:hover{
+    background-color: orangered;
+    color: white;
+}
+
+.welcome-create-account-button:active{
+    background-color: orangered;
+    color: white;
+    filter: brightness(90%);
+}

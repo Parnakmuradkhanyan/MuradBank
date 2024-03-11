@@ -1,0 +1,20 @@
+body{
+    background: url(../img/more-bgrnd.svg), no-repeat;
+    background-size: cover;
+}
+
+.replenishment-points-title-div{
+    display: flex;
+    gap: 16px;
+    margin-top: 26px;
+    margin-left: 28px;
+    align-items: center;
+}
+
+.replenishment-points-title{
+    color: white;
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 0px;
+}

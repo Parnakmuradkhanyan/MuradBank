@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="../js/manifest.webmanifest">
+    <link rel="shortcut icon" href="../icons/website-icon.svg" type="image/x-icon">
+    <link rel="apple-touch-icon" href="../icons/icon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../icons/152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../icons/180.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="../icons/167.png">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/more.css">
+    <title>MuradBank - More</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+
+                <div class="container-currency-container">
+                    <h2 class="converter-title">Currecny Converter</h2>
+                    <div class="line"></div>
+                    <div class="currency-chooser">
+                        <div class="currency-1">
+                            <select id="currency-one" class="currency-one">
+                              <option value="AED">AED</option>
+                              <option value="ARS">ARS</option>
+                              <option value="AUD">AUD</option>
+                              <option value="BGN">BGN</option>
+                              <option value="BRL">BRL</option>
+                              <option value="BSD">BSD</option>
+                              <option value="CAD">CAD</option>
+                              <option value="CHF">CHF</option>
+                              <option value="CLP">CLP</option>
+                              <option value="CNY">CNY</option>
+                              <option value="COP">COP</option>
+                              <option value="CZK">CZK</option>
+                              <option value="DKK">DKK</option>
+                              <option value="DOP">DOP</option>
+                              <option value="EGP">EGP</option>
+                              <option value="EUR">EUR</option>
+                              <option value="FJD">FJD</option>
+                              <option value="GBP">GBP</option>
+                              <option value="GTQ">GTQ</option>
+                              <option value="HKD">HKD</option>
+                              <option value="HRK">HRK</option>
+                              <option value="HUF">HUF</option>
+                              <option value="IDR">IDR</option>
+                              <option value="ILS">ILS</option>
+                              <option value="INR" selected>INR</option>
+                              <option value="ISK">ISK</option>
+                              <option value="JPY">JPY</option>
+                              <option value="KRW">KRW</option>
+                              <option value="KZT">KZT</option>
+                              <option value="MXN">MXN</option>
+                              <option value="MYR">MYR</option>
+                              <option value="NOK">NOK</option>
+                              <option value="NZD">NZD</option>
+                              <option value="PAB">PAB</option>
+                              <option value="PEN">PEN</option>
+                              <option value="PHP">PHP</option>
+                              <option value="PKR">PKR</option>
+                              <option value="PLN">PLN</option>
+                              <option value="PYG">PYG</option>
+                              <option value="RON">RON</option>
+                              <option value="RUB">RUB</option>
+                              <option value="SAR">SAR</option>
+                              <option value="SEK">SEK</option>
+                              <option value="SGD">SGD</option>
+                              <option value="THB">THB</option>
+                              <option value="TRY">TRY</option>
+                              <option value="TWD">TWD</option>
+                              <option value="UAH">UAH</option>
+                              <option value="USD">USD</option>
+                              <option value="UYU">UYU</option>
+                              <option value="VND">VND</option>
+                              <option value="ZAR">ZAR</option>
+                            </select>
+                            <input type="number" class="number" id="amount-one" placeholder="0" value="1">
+                          </div>
+                          <div class="swap-rate-container">
+                            <button class="btn-swap" id="swap"><img src="../icons/swap-currency-icon.svg" alt="swap"></button>
+                            <div class="rate" id="rate"></div>
+                          </div>
+                          <div class="currency-2">
+                            <select id="currency-two" class="currency-two">
+                              <option value="AED">AED</option>
+                              <option value="ARS">ARS</option>
+                              <option value="AUD">AUD</option>
+                              <option value="BGN">BGN</option>
+                              <option value="BRL">BRL</option>
+                              <option value="BSD">BSD</option>
+                              <option value="CAD">CAD</option>
+                              <option value="CHF">CHF</option>
+                              <option value="CLP">CLP</option>
+                              <option value="CNY">CNY</option>
+                              <option value="COP">COP</option>
+                              <option value="CZK">CZK</option>
+                              <option value="DKK">DKK</option>
+                              <option value="DOP">DOP</option>
+                              <option value="EGP">EGP</option>
+                              <option value="EUR">EUR</option>
+                              <option value="FJD">FJD</option>
+                              <option value="GBP">GBP</option>
+                              <option value="GTQ">GTQ</option>
+                              <option value="HKD">HKD</option>
+                              <option value="HRK">HRK</option>
+                              <option value="HUF">HUF</option>
+                              <option value="IDR">IDR</option>
+                              <option value="ILS">ILS</option>
+                              <option value="INR">INR</option>
+                              <option value="ISK">ISK</option>
+                              <option value="JPY">JPY</option>
+                              <option value="KRW">KRW</option>
+                              <option value="KZT">KZT</option>
+                              <option value="MXN">MXN</option>
+                              <option value="MYR">MYR</option>
+                              <option value="NOK">NOK</option>
+                              <option value="NZD">NZD</option>
+                              <option value="PAB">PAB</option>
+                              <option value="PEN">PEN</option>
+                              <option value="PHP">PHP</option>
+                              <option value="PKR">PKR</option>
+                              <option value="PLN">PLN</option>
+                              <option value="PYG">PYG</option>
+                              <option value="RON">RON</option>
+                              <option value="RUB">RUB</option>
+                              <option value="SAR">SAR</option>
+                              <option value="SEK">SEK</option>
+                              <option value="SGD">SGD</option>
+                              <option value="THB">THB</option>
+                              <option value="TRY">TRY</option>
+                              <option value="TWD">TWD</option>
+                              <option value="UAH">UAH</option>
+                              <option value="USD" selected>USD</option>
+                              <option value="UYU">UYU</option>
+                              <option value="VND">VND</option>
+                              <option value="ZAR">ZAR</option>
+                            </select>
+                            <input type="number" class="number" id="amount-two" placeholder="0">
+                          </div>
+                    </div>
+                    
+                  </div>
+
+            </div>
+            <div class="col-12">
+                <button class="replenishment-points-btn">
+                    <a href="./more_replenishment_points.html" class="replenishment-points-link">
+                        <img src="../icons/more-replenishment-point-map-pin-icon.svg" alt="pin"><p>Replenishment Points</p>
+                    </a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-container">
+        <div class="decoration-line"></div>
+        <ul class="more-services">
+            <li>
+                <a href="tel:+380636376079" class="link-more-service">
+                    <img src="../icons/more-support-service-icon.svg" alt="Support" class="icon-more-service"><p>Support Service</p>
+                </a>
+            </li>
+            <li>
+                <a href="./more_support_countries.html" class="link-more-service">
+                    <img src="../icons/more-countries-that-support-our-card-icon.svg" alt="Globe" class="icon-more-service"><p>Countries that support<br>our card</p>
+                </a>
+            </li>
+            <li>
+                <a href="" class="link-more-service">
+                    <img src="../icons/more-buy-esim-icon.svg" alt="Esim" class="icon-more-service"><p>Buy eSIM</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="navbar">
+        <ul class="nav-list">
+            <li><a href="./main_bank.html"><img src="../icons/main-icon-not-active.svg" alt="Main" class="navbar-image"></a><a href="./main_bank.html" class="navbar-item-link-text">Main</a></li>
+            <li><a href=""><img src="../icons/security-icon-not-active.svg" alt="Security" class="navbar-image"></a><a href="" class="navbar-item-link-text">Security</a></li>
+            <li><a href="./deposit.html"><img src="../icons/deposit-icon-not-active.svg" alt="Deposit" class="navbar-image"></a><a href="./deposit.html" class="navbar-item-link-text">Deposit</a></li>
+            <li><a href=""><img src="../icons/installment-icon-not-active.svg" alt="Installment" class="navbar-image"></a><a href="" class="navbar-item-link-text">Installment</a></li>
+            <li><a href="#"><img src="../icons/more-icon-active.svg" alt="More" class="navbar-image"></a><a href="#" class="navbar-item-link-text-active">More</a></li>
+            <li><a href="./profile.html"><img src="../icons/user-not-logged-in.svg" alt="User" class="person-profile"></a></li>
+        </ul>
+    </div>
+    <script src="../js/more.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>

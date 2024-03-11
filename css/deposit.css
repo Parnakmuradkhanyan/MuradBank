@@ -1,0 +1,431 @@
+body{
+    background: url(../img/deposit-bgrnd.svg), no-repeat;
+    background-size: cover;
+}
+.title-and-info{
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 64px;
+    margin-bottom: 100px;
+    gap: 97%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.title-deposit{
+    color: white;
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 24px;
+    position: absolute;
+    left: 0px;
+    margin-left: 34px;
+    top: 0px;
+    margin-bottom: 0px;
+}
+.info-icon{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin-right: 34px;
+}
+
+.percent-of-deposit{
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.class-percent-amount, .percent-symbol{
+    color: white;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.percents-in-currecncies{
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    justify-content: center;
+
+}
+
+.usd-choose-deposit{
+    width: 122px;
+    height: auto;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    background: rgba(0,0,0, 0.7);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+    border-top: 1px solid rgba(255,255,255, 0.5);
+    border-bottom: 1px solid rgba(255,255,255, 0.5);
+    border-right: 0.5px solid rgba(255,255,255, 0.5);
+
+}
+
+.uah-choose-deposit{
+    width: 122px;
+    height: auto;
+    background: rgba(0,0,0, 0.7);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+    border-top: 1px solid rgba(255,255,255, 0.5);
+    border-bottom: 1px solid rgba(255,255,255, 0.5);
+    border-right: 0.5px solid rgba(255,255,255, 0.5);
+}
+
+.eur-choose-deposit{
+    width: 122px;
+    height: auto;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background: rgba(0,0,0, 0.7);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+    border-top: 1px solid rgba(255,255,255, 0.5);
+    border-bottom: 1px solid rgba(255,255,255, 0.5);
+    border-right: 0.5px solid rgba(255,255,255, 0.5);
+
+}
+
+.eur-choose-deposit:hover, .uah-choose-deposit:hover, .usd-choose-deposit:hover, .eur-choose-deposit:active, .uah-choose-deposit:active, .usd-choose-deposit:active{
+    background: rgba(0,0,0, 0.8);
+    backdrop-filter: blur(8px);
+}
+
+.eur-choose-deposit:active, .uah-choose-deposit:active, .usd-choose-deposit:active{
+    filter: brightness(80%);
+}
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    justify-content: center;
+    align-items: center
+}
+
+.currency-button-text{
+    color: white;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.currcency-percent-button-text{
+    color: white;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.months-container{
+    width: 366px;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    background: rgba(0,0,0, 0.7);
+    border: 1px solid rgba(255,255,255, 0.5);
+    border-radius: 12px;
+    margin-top: 14px;
+    padding: 18px 24px 18px 24px;
+}
+
+.months-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.months{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    justify-content: center;
+}
+
+.months p{
+    color: white;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.deposit-interst-rate{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    justify-content: center;
+}
+
+.deposit-interst-rate p{
+    color: white;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.button-minus-deposit-month{
+    background: none;
+    border: 0px solid transparent;
+    position: absolute;
+    left: 24px;
+}
+
+.button-plus-deposit-month{
+    background: none;
+    border: 0px solid transparent;
+    position: absolute;
+    right: 24px;
+}
+
+.make-deposit-button{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 133px;
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    background: red;
+    text-decoration: none;
+    border: 0px solid transparent;
+    border-radius: 12px;
+    color: white;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 700;
+    transition: all 0.2s ease;
+    padding: 17px 56px 17px 56px;
+}
+
+.make-deposit-button-link{
+    color: white;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.make-deposit-button-link:hover, .make-deposit-button-link:active{
+    color: white;
+}
+
+.make-deposit-button-link:active{
+    filter: brightness(80%);
+}
+
+.make-deposit-button:active, .make-deposit-button:hover{
+    background: orangered;
+}
+
+.make-deposit-button:active{
+    filter: brightness(80%);
+}
+
+
+
+
+.list-container{
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid white ;
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+    backdrop-filter: blur(8px);
+
+}
+
+.decoration-line{
+    width: 25%;
+    height: 7px;
+    background: white;
+    border-radius: 23px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 14px;
+}
+
+.deposit-contatiner{
+    width: 90%;
+    height: 70px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 14px;
+    background: rgba(255, 255, 255, 0.18);
+    border: 1px solid white ;
+    border-radius: 12px;
+    display: flex;
+    padding-left: 13px;
+    padding-right: 20px;
+    align-items: center;
+}
+
+
+
+.percentage-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.my-deposits-title{
+    position: relative;
+    margin-top: 28px;
+    margin-left: 30px;
+    color: white;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.duraion-of-transaction{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    font-family: 'Inter';
+    color: white;
+    font-size: 13px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.duraion-of-transaction{
+    margin-bottom: 0px;
+}
+
+.duraion-of-transaction p{
+    margin-bottom: 0px;
+}
+
+.next_payment-time{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    font-family: 'Inter';
+    color: white;
+    font-size: 11px;
+    font-weight: 500;
+    align-items: center;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+.next_payment-time p{
+    margin-bottom: 0px;
+}
+
+.sum{
+    position: absolute;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.amount, .currency-sum{
+    font-family: 'Inter';
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+.navbar{
+    width: 100%;
+    height: 88px;
+    position: fixed;
+    bottom: 0px;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list{
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7%;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.nav-list li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navbar-item-link-text{
+    font-family: 'Inter';
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    text-decoration: none;
+}
+
+.navbar-item-link-text-active{
+    font-family: 'Inter';
+    color: red;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    text-decoration: none;
+}
+
+.navbar-item-link-text:hover{
+    color: black;
+}
+
+.navbar-item-link-text-active:hover{
+    color: red;
+}
+
+.person-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    padding-bottom: 7.5px;
+
+}

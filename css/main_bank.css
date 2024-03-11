@@ -1,0 +1,419 @@
+body{
+    background: url(../img/main-bgrnd.jpg), no-repeat;
+    background-size: cover;
+}
+
+.flip-card {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 47px;
+    background-color: transparent;
+    width: 360px;
+    height: 227px;
+    perspective: 1000px;
+}
+  
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+  
+  
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 360px;
+    height: 227px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+  
+.flip-card-front {
+    background-color: rgba(0, 0, 0, 0.73);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    border-radius: 23px;
+    backdrop-filter: blur(8px);
+}
+  
+.flip-card-back {
+    background-color: rgba(0, 0, 0, 0.73);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    border-radius: 23px;
+    color: white;
+    backdrop-filter: blur(8px);
+    transform: rotateY(180deg);
+}
+.logo-on-credit-card{
+    position: absolute;
+    top: 24px;
+    left: 15px;
+    height: 22px;
+}
+
+.card-number{
+    position: absolute;
+    top: 118px;
+    left: 28px;
+    display: flex;
+    gap: 18px;
+}
+
+.num{
+    font-family: 'Lucida Console';
+    color: white;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.vaild-thru-date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    position: absolute;
+    top: 155px;
+    left: 178px;
+}
+
+.valid, .thru{
+    font-family: 'Lucida Console';
+    color: white;
+    font-size: 8px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.month, .year, .slash{
+    font-family: 'Lucida Console';
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.name-surname{
+    position: absolute;
+    top: 180px;
+    left: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+}
+
+.name, .surname{
+    font-family: 'Lucida Console';
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.master-card-logo{
+    width: 56px;
+    height: 35px;
+    position: absolute;
+    top: 173px;
+    left: 287px;
+}
+
+.magnetic-line{
+    position: absolute;
+    left: 0;
+    top: 26px;
+    width: 358px;
+    height: 47px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.field{
+    position: absolute;
+    left: 221px;
+    top: 156px;
+    width: 118px;
+    height: 47px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+}
+
+.dots-for-cvv-decoration{
+    width: 45px;
+    height: 21px;
+}
+
+.cvv{
+    font-family: 'Lucida Console';
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.your-balance-text{
+    font-family: 'Inter';
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 37px;
+    margin-left: 28px;
+    margin-bottom: 5px;
+}
+
+.balance{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: 28px
+}
+
+.money, .currency{
+    font-family: 'Inter';
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 30px;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(8px);
+    width: 352px;
+    height: 100px;
+    border-radius: 23px;
+    gap: 28px;
+}
+
+
+.btn-1{
+    position: absolute;
+    display: inline-block;
+    top: 8px;
+    left: 17px;
+}
+.btn-2{
+    position: absolute;
+    display: inline-block;
+    top: 8px;
+    left: 101px;
+}
+.btn-3{
+    position: absolute;
+    display: inline-block;
+    top: 8px;
+    left: 185px;
+}
+
+.btn-4{
+    position: absolute;
+    display: inline-block;
+    top: 8px;
+    right: 17px;
+}
+
+.btn-1 img, .btn-2 img, .btn-3 img, .btn-4 img{
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+
+.menu-link-text{
+    font-family: 'Inter';
+    color: white;
+    font-size: 11px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    text-decoration: none;
+}
+
+.menu-link-text:hover{
+    color: white;
+}
+
+.menu-link-text p{
+    text-align: center;
+    color: white;
+    font-size: 11px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+
+.list-container{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid white ;
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+    backdrop-filter: blur(8px);
+
+}
+
+.decoration-line{
+    width: 25%;
+    height: 7px;
+    background: white;
+    border-radius: 23px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 14px;
+}
+
+.transaction-contatiner{
+    width: 90%;
+    height: 70px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 14px;
+    background: rgba(255, 255, 255, 0.18);
+    border: 1px solid white ;
+    border-radius: 12px;
+    display: flex;
+    padding-left: 13px;
+    padding-right: 20px;
+    align-items: center;
+}
+
+
+
+.transaction-company{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.name-of-transaction{
+    font-family: 'Inter';
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.date-time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.date, .time{
+    font-family: 'Inter';
+    color: white;
+    font-size: 10px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.sum{
+    position: absolute;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.amount, .currency-sum{
+    font-family: 'Inter';
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.navbar{
+    width: 100%;
+    height: 88px;
+    position: fixed;
+    bottom: 0px;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list{
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7%;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.nav-list li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navbar-item-link-text{
+    font-family: 'Inter';
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    text-decoration: none;
+}
+
+.navbar-item-link-text-active{
+    font-family: 'Inter';
+    color: red;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    text-decoration: none;
+}
+
+.navbar-item-link-text:hover{
+    color: black;
+}
+
+.navbar-item-link-text-active:hover{
+    color: red;
+}
+
+.person-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    padding-bottom: 7.5px;
+
+}

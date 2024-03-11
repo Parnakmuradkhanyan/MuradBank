@@ -1,0 +1,272 @@
+.top-decoration-circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bottom-decoration-circles{
+    position: fixed; 
+    bottom: 0px; 
+    right: 0px;
+}
+
+.back-button{
+    position: absolute;
+    top: 54px;
+    left: 23px;
+    width: 31px;
+}
+
+.logo-image{
+    position: absolute;
+    top: 62px;
+    right: 19px;
+    width: 221px;
+    height: auto;
+}
+
+.book-cover{
+    background: linear-gradient(0deg, rgba(255,153,0,1) 0%, rgba(235,40,40,1) 100%);
+    border-radius: 12px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.425);
+    width: 325px;
+    height: 824px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 180px;
+    margin-bottom: 200px;
+}
+
+.paper-1{
+    background: white;
+    border-radius: 8px;
+    width: 311px;
+    height: 266px;
+    position: absolute;
+    top: 12px;
+    left: 7px;
+    padding-left: 18px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.425);
+}
+
+.paper-2{
+    background: white;
+    border-radius: 8px;
+    width: 311px;
+    height: 518px;
+    position: absolute;
+    top: 294px;
+    left: 7px;
+    padding-left: 18px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.425);
+}
+.form{
+    margin-top: 27px
+}
+.form-name{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 14px;
+    position: absolute;
+    top: 10px;
+    left: 107px;
+    margin-bottom: 0px;
+    color: black;
+}
+.form p{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 10px;
+    margin-bottom: 1px;
+}
+.form input{
+    border: 0px solid transparent;
+    border-radius: 8px;
+    height: 21px;
+    background: #D9D9D9;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 10px;
+    padding-left: 7px;
+}
+
+.form select{
+    border: 0px solid transparent;
+    border-radius: 8px;
+    height: 21px;
+    background: #D9D9D9;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 10px;
+    padding: 0;
+    padding-left: 7px;
+
+}
+
+
+.name-input, .surname-input{
+    width: 201px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.gender-nationality-cityzenship, .date-of-birth_date-of-expiry_date-of-issue, .serial-number_authority, .conutry_city, .state_zip-code, .address_building_appartment, .identification-number_date-of-issue{
+    display: flex;
+    margin-bottom: 5px;
+}
+.gender, .nationality, .cityzenship, .date-of-birth, .date-of-expiry, .date-of-issue{
+    margin-right: 11px;
+}
+
+.serial-number{
+    margin-right: 17px;
+}
+
+
+.gender-select{
+    width: 50px;
+}
+
+.nationality-select, .cityzenship-select, .authority-input{
+    width: 81px;
+}
+
+
+.date-of-birth-input, .date-of-expiry-input, .date-of-issue-input{
+    width: 81px;
+    padding-right: 3px;
+}
+
+.country-select{
+    width: 134px;
+    margin-right: 15px;
+}
+.city-input, .state-input, .zip-code-input{
+    width: 77px;
+}
+
+.state-input{
+    margin-right: 73px;
+}
+
+.address-input{
+    width: 149px;
+    margin-right: 10px;
+}
+
+.building-input, .appartment-input{
+    width: 52px;
+    margin-right: 16px;
+}
+
+.address_building_appartment{
+    margin-bottom: 28px;
+}
+
+.identification-number-input{
+    width: 150px;
+    margin-right: 36px;
+}
+
+.i-give-permission-text{
+    font-size: 8px;
+    font-weight: 400;
+    margin-top: 7px;
+}
+
+.signature-component {
+    text-align: left;
+    display: inline-block;
+    max-width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin-top: 20px;
+}
+
+.signature-name{
+    margin: 0 auto;
+    margin-bottom: 6px;
+    font-family: 'Inter';
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.signature-component canvas {
+    display: block;
+    position: relative;
+    background: #D9D9D9;
+    border: 0px solid transparent;
+    border-radius: 8px;
+}
+
+.clear-button button{
+    background: red;
+    width: 55px;
+    height: 26px;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Inter';
+    font-size: 10px;
+    font-weight: 700;
+    border: 0 solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 205px;
+    margin-top: 20px;
+    transition: all 0.2s ease;
+}
+
+.signature-component img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.btn-next{
+    background: red;
+    width: 55px;
+    height: 26px;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 700;
+    border: 0 solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 230px;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    transition: all 0.2s ease;
+}
+
+.btn-next-register-link{
+    color: white;
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.btn-next:hover, .btn-next:active, .clear-button button:hover, .clear-button button:active{
+    background-color: orangered;
+}
+
+.btn-next:active, .clear-button button:active{
+    filter: brightness(80%);
+}
+
+.btn-next-register-link:hover, .btn-next-register-link:active{
+    color: white;
+    text-decoration: none;
+    filter: brightness(80%);
+}
+
+input[type='file'] {
+    color: transparent;
+}

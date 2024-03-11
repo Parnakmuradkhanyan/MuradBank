@@ -1,0 +1,385 @@
+body{
+    background: url(../img/profile-bgrnd.svg) no-repeat;
+    background-size: cover;
+}
+.col-12{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.profile-container{
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur();
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 23px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 200px;
+    padding-left: 30px;
+
+}
+
+.profile-title-div{
+    display: flex;
+    gap: 16px;
+    margin-top: 26px;
+    margin-left: 28px;
+    align-items: center;
+}
+
+.profile-title{
+    color: white;
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+#preview {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  margin-left: 8px;
+}
+
+input::file-selector-button {
+  font-weight: bold;
+  color: white;
+  background-color: transparent;
+  padding: 7px;
+  border: 0px solid transparent;
+  border-radius: 12px;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+
+input::file-selector-button:hover, input::file-selector-button:active{
+  filter: brightness(80%)
+}
+
+.name-surname-profile-photo{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-top: 8px;
+  align-items: center;
+}
+
+.image-div{
+  position: absolute;
+  right: 0px;
+  margin-right: 44px;
+}
+
+.name-label, .surname-label, .email-label, .tel-num-label, .gender-label, .nationality-label, .cityzenship-label, .date-of-birth-label, .date-of-expiry-label, .date-of-issue-label, .authority-label, .serial-number-label, .country-label, .state-label, .city-label, .zip-code-label, .address-label, .building-label, .appartment-label, .identification-number-label{
+  color: white;
+  font-family: 'Inter';
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 6px;
+
+}
+
+.name-input, .surname-input, .tel-num-input{
+  width: 184px;
+  height: 34px;
+  background: rgba(255, 255, 255, 0.4);
+  padding-left: 14px;
+  border: 0px solid transparent;
+  border-radius: 12px;
+  color: white;
+  font-family: 'Inter';
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 6px;
+
+}
+
+.image-div{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.email-input, .serial-number-input, .country-select{
+  width: 300px;
+  height: 34px;
+  background: rgba(255, 255, 255, 0.4);
+  padding-left: 14px;
+  border: 0px solid transparent;
+  border-radius: 12px;
+  color: white;
+  font-family: 'Inter';
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+option{
+  color: black;
+  font-family: 'Inter';
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.gender-nationality-cityzenship{
+  display: flex;
+  gap: 23px;
+}
+
+.gender-select{
+  width: 50px;
+  height: 34px;
+  background: rgba(255, 255, 255, 0.4);
+  padding-left: 14px;
+  border: 0px solid transparent;
+  border-radius: 12px;
+  color: white;
+  font-family: 'Inter';
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.nationality-select, .cityzenship-select{
+  width: 100px;
+  height: 34px;
+  background: rgba(255, 255, 255, 0.4);
+  padding-left: 14px;
+  border: 0px solid transparent;
+  border-radius: 12px;
+  color: white;
+  font-family: 'Inter';
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.date-of-birth_date-of-expiry, .date-of-issue_authority, .state_city{
+  display: flex;
+  gap: 42px;
+}
+
+
+.date-of-birth-input, .date-of-expiry-input, .date-of-issue-input{
+  width: 129px;
+  height: 34px;
+  background: rgba(255, 255, 255, 0.4);
+  padding-left: 14px;
+  border: 0px solid transparent;
+  border-radius: 12px;
+  color: white;
+  font-family: 'Inter';
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  padding-right: 3px;
+}
+
+.authority-input{
+  width: 94px;
+  height: 34px;
+  background: rgba(255, 255, 255, 0.4);
+  padding-left: 14px;
+  border: 0px solid transparent;
+  border-radius: 12px;
+  color: white;
+  font-family: 'Inter';
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 6px;
+
+}
+
+.state-input, .city-input, .zip-code-input{
+  width: 129px;
+  height: 34px;
+  background: rgba(255, 255, 255, 0.4);
+  padding-left: 14px;
+  border: 0px solid transparent;
+  border-radius: 12px;
+  color: white;
+  font-family: 'Inter';
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.address_building_appartment{
+  display: flex;
+  gap: 5px;
+}
+
+.identification-number_date-of-issue{
+  display: flex;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.address-input, .identification-number-input{
+  width: 163px;
+  height: 34px;
+  background: rgba(255, 255, 255, 0.4);
+  padding-left: 14px;
+  border: 0px solid transparent;
+  border-radius: 12px;
+  color: white;
+  font-family: 'Inter';
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.building-input, .appartment-input{
+  width: 67px;
+  height: 34px;
+  background: rgba(255, 255, 255, 0.4);
+  padding-left: 14px;
+  border: 0px solid transparent;
+  border-radius: 12px;
+  color: white;
+  font-family: 'Inter';
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.save-changes-button{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 58px;
+  background: red;
+  color: white;
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 700;
+  width: 60%;
+  padding: 9px 12px 9px 12px;
+  border: 0px solid transparent;
+  border-radius: 12px;
+  transition: all 0.2s ease;
+}
+
+.save-changes-button-link{
+  color: white;
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.save-changes-button-link:active, .save-changes-button-link:hover{
+  color: white;
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.save-changes-button:active, .save-changes-button:hover{
+  background: orangered;
+}
+
+.save-changes-button:active, .save-changes-button-link:active{
+  filter: brightness(80%);
+}
+
+.navbar{
+  width: 100%;
+  height: 88px;
+  position: fixed;
+  bottom: 0px;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list{
+  position: relative;
+  top: 50%;
+  transform: translate(0%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7%;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.nav-list li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.navbar-item-link-text{
+  font-family: 'Inter';
+  color: black;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  text-decoration: none;
+}
+
+.navbar-item-link-text:hover{
+  color: black;
+}
+
+
+.person-profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  padding-bottom: 7.5px;
+
+}
+
+.custom-file-input {
+  color: transparent;
+  width: 90px;
+}
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+
+  content: 'Change Photo';
+  color: white;
+  display: inline-block;
+  background: none;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 10pt;
+}
+.custom-file-input:hover::before {
+  border-color: transparent;
+}
+.custom-file-input:active {
+  outline: 0;
+}
+.custom-file-input:active::before {
+  background: none; 
+}

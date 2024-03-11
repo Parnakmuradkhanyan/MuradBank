@@ -1,0 +1,97 @@
+body{
+    background: url(../img/main-bgrnd.jpg) no-repeat;
+    background-size: cover;
+}
+.arrow-back{
+    position: absolute;
+    top: 54px;
+    left: 54px;
+}
+h1{
+    color: white;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 34px;
+}
+
+.form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.form p{
+    font-family: 'Inter';
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.form input{
+    width: 314px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.71);
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    backdrop-filter: blur(8px);
+    padding-left: 14px;
+    font-family: 'Inter';
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.email-label, .tel-num-label{
+    margin-bottom: 4px;
+}
+
+.email-input{
+    margin-bottom: 18px;
+}
+
+.tel-num-input{
+    margin-bottom: 38px;
+}
+
+.create-account-button{
+    background: red;
+    border: 0 solid transparent;
+    border-radius: 23px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: white;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 18px;
+    transition: all 0.2s ease;
+}
+
+.create-account-button-link{
+    color: white;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.create-account-button-link:hover, .create-account-button-link:active{
+    color: white;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.create-account-button:hover, .create-account-button:active{
+    background: orangered;
+}
+
+.create-account-button:active, .create-account-button-link:active{
+    filter: brightness(80%);
+}

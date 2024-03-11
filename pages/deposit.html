@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="../js/manifest.webmanifest">
+    <link rel="shortcut icon" href="../icons/website-icon.svg" type="image/x-icon">
+    <link rel="apple-touch-icon" href="../icons/icon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../icons/152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../icons/180.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="../icons/167.png">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/deposit.css">
+    <title>MuradBank - Deposit</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="title-and-info">
+                    <h1 class="title-deposit">Deposit</h1>
+                    <a href="./deposit_info.html"><img src="../icons/info-icon.svg" class="info-icon" alt="Info"></a>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="percent-of-deposit">
+                    <p class="class-percent-amount" id="percentDeposit"></p>
+                    <p class="percent-symbol">%</p>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="percents-in-currecncies">
+                    <button class="usd-choose-deposit" id="usdDepositPercentageButton" value="$">
+                        <div class="content">
+                            <img src="../img/usd-choose-currency-for-deposit-icon.svg" alt="USA">
+                            <div class="text">
+                                <p class="currency-button-text">USD</p>
+                                <p class="currcency-percent-button-text">to 3%</p>
+                            </div>
+                        </div>
+                    </input>
+                    <button class="uah-choose-deposit" id="uahDepositPercentageButton">
+                        <div class="content">
+                            <img src="../img/uah-choose-currency-for-deposit-icon.svg" alt="UKR">
+                            <div class="text">
+                                <p class="currency-button-text">UAH</p>
+                                <p class="currcency-percent-button-text">to 20%</p>
+                            </div>
+                        </div>
+                    </button>
+                    <button class="eur-choose-deposit" id="eurDepositPercentageButton"> 
+                        <div class="content">
+                            <img src="../img/eur-choose-currency-for-deposit-icon.svg" alt="EU">
+                            <div class="text">
+                                <p class="currency-button-text">EUR</p>
+                                <p class="currcency-percent-button-text">to 3%</p>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="months-container">
+                    <button class="button-minus-deposit-month" id="minusButton"><img src="../icons/minus-deposit-month-icon.svg" alt="-"></button>
+                    <div class="months-and-interest-rate">
+                        <div class="months">
+                            <p id="monthsText">12</p>
+                            <p>months</p>
+                        </div>
+                        <div class="deposit-interst-rate">
+                            <p>Deposit interest rate</p>
+                            <p id="depositPercentPermonth"></p>
+                            <p>%</p>
+                        </div>
+                    </div>
+                    <button class="button-plus-deposit-month" id="plusButton"><img src="../icons/plus-deposit-moths-icon.svg" alt="+"></button>
+                </div>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="make-deposit-button"><a href="./deposit_select_amount_of_money.html?currencyAmount=" id="currencyAmountLink" class="make-deposit-button-link">Make a deposit</a></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-container">
+        <div class="decoration-line"></div>
+        <h2 class="my-deposits-title">My Deposits</h2>
+        <div class="deposit-contatiner">
+            <img src="" alt="Percentage-image" class="percentage-image">
+            <div class="duration-next_payment-time">
+                <div class="duraion-of-transaction">
+                    <p>12</p>
+                    <p>months</p>
+                </div>
+                <div class="next_payment-time">
+                    <p class="text-next_payment">Next payment is on</p>
+                    <p class="date">10</p>
+                    <p class="month">September</p>
+                </div>
+            </div>
+            <div class="sum">
+                <p class="currency-sum">$</p>
+                <div class="amount">1000</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="navbar">
+        <ul class="nav-list">
+            <li><a href="./main_bank.html"><img src="../icons/main-icon-not-active.svg" alt="Main" class="navbar-image"></a><a href="./main_bank.html" class="navbar-item-link-text">Main</a></li>
+            <li><a href=""><img src="../icons/security-icon-not-active.svg" alt="Security" class="navbar-image"></a><a href="" class="navbar-item-link-text">Security</a></li>
+            <li><a href="#"><img src="../icons/deposit-icon-active.svg" alt="Deposit" class="navbar-image"></a><a href="#" class="navbar-item-link-text-active">Deposit</a></li>
+            <li><a href=""><img src="../icons/installment-icon-not-active.svg" alt="Installment" class="navbar-image"></a><a href="" class="navbar-item-link-text">Installment</a></li>
+            <li><a href="./more.html"><img src="../icons/more-icon-not-active.svg" alt="More" class="navbar-image"></a><a href="./more.html" class="navbar-item-link-text">More</a></li>
+            <li><a href="./profile.html"><img src="../icons/user-not-logged-in.svg" alt="User" class="person-profile"></a></li>
+        </ul>
+    </div>
+
+
+    <script src="../js/deposit.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>
