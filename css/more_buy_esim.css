@@ -1,0 +1,385 @@
+body{
+    background: url(../img/more-bgrnd.svg) no-repeat;
+    background-size: cover;
+}
+
+.buy-eSIM-title-div{
+    display: flex;
+    gap: 16px;
+    margin-top: 26px;
+    margin-left: 28px;
+    align-items: center;
+}
+
+.buy-eSIM-title{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.local-operators-container{
+    width: 98%;
+    background: rgba(0,0,0,0.7);
+    backdrop-filter: blur(8px);
+    border-radius: 23px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 68px;
+
+}
+
+.local-operators-title{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    margin-left: 28px;
+    margin-bottom: 0px;
+}
+
+.line{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 5px;
+    width: 100%;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.local-tariff-buttons-container{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 38px;
+    justify-content: center;
+
+}
+
+.local-tariff-button{
+    max-width: 86px;
+    background: rgba(0, 0, 0, 0.54);
+    border: 0px solid transparent;
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 15px 12px 26px 12px;
+    transition: all 0.2s ease;
+}
+
+.local-tariff-button:hover{
+    filter: brightness(80%);
+}
+
+.loacl-tariff-image:active{
+    filter: brightness(60%);
+}
+
+
+.tariff-logo-div{
+    width: 62px;
+    height: 62px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+.loacl-tariff-image{
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.local-tariff-link{
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.tariff-name{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    transition: all 0.2s ease;
+}
+
+
+.international-operators-container{
+    width: 98%;
+    background: rgba(0,0,0,0.7);
+    backdrop-filter: blur(8px);
+    border-radius: 23px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 68px;
+}
+
+.international-operators-title{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    margin-left: 28px;
+    margin-bottom: 0px;
+}
+
+.line{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 5px;
+    width: 100%;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.international-tariff-buttons-container{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 38px;
+    justify-content: center;
+
+}
+
+.international-tariff-button{
+    max-width: 86px;
+    background: rgba(0, 0, 0, 0.54);
+    border: 0px solid transparent;
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 15px 12px 26px 12px;
+    transition: all 0.2s ease;
+}
+
+.international-tariff-button:hover{
+    filter: brightness(80%);
+}
+
+.international-tariff-image:active{
+    filter: brightness(60%);
+}
+
+
+.tariff-logo-div{
+    width: 62px;
+    height: 62px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+.international-tariff-image{
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.international-tariff-link{
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.tariff-name{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    transition: all 0.2s ease;
+}
+
+.list-container{
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid white ;
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+    backdrop-filter: blur(8px);
+
+}
+
+.decoration-line{
+    width: 25%;
+    height: 7px;
+    background: white;
+    border-radius: 23px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 14px;
+}
+
+.my-esims-title{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    position: relative;
+    margin-top: 36px;
+    margin-left: 35px;
+}
+
+.esim-contatiner{
+    width: 90%;
+    background: rgba(0, 0, 0, 0.72);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    backdrop-filter: blur(8px);
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 14px;
+}
+
+.operator-tariff-phone_num-info-div{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-left: 12px;
+}
+
+.logo-container-box{
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: white;
+}
+
+.tariff-phone_num-info-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.tariff-name{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.phone-num{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.navbar{
+    width: 100%;
+    height: 88px;
+    position: relative;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.nav-list{
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7%;
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  
+  .nav-list li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .navbar-item-link-text{
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    text-decoration: none;
+  }
+  
+  .navbar-item-link-text-active{
+    font-family: 'Inter', sans-serif;
+    color: red;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    text-decoration: none;
+  }
+  
+  .navbar-item-link-text:hover{
+    color: black;
+  }
+  
+  .navbar-item-link-text-active:hover{
+    color: red;
+  }
+  
+  .person-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    padding-bottom: 7.5px;
+  
+  }
+
