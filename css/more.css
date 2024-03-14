@@ -1,5 +1,5 @@
 body{
-    background: url(../img/more-bgrnd.svg), no-repeat;
+    background: url(../img/more-bgrnd.svg) no-repeat;
     background-size: cover;
 }
 
@@ -19,7 +19,7 @@ body{
 
 .converter-title{
   color: white;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-size: 13px;
   font-weight: 700;
   margin-bottom: 0px;
@@ -62,7 +62,7 @@ body{
   border: 0px solid transparent;
   border-radius: 12px;
   color: white;
-  font-family: 'Inter';  
+  font-family: 'Inter', sans-serif;  
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -85,7 +85,7 @@ body{
 
 .rate{
   color: white;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 16px;
   margin-top: 8px;
@@ -136,7 +136,7 @@ input[type=number] {
 
 .replenishment-points-link{
   color: white;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-weight: 700;
   text-decoration: none;
@@ -231,7 +231,7 @@ input[type=number] {
 .link-more-service p{
   color: white;
   text-decoration: none;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-weight: 700px;
   font-size: 16px;
   margin-bottom: 0px;
@@ -265,7 +265,7 @@ input[type=number] {
 }
 
 .navbar-item-link-text{
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   color: black;
   font-size: 12px;
   font-weight: 600;
@@ -274,7 +274,7 @@ input[type=number] {
 }
 
 .navbar-item-link-text-active{
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   color: red;
   font-size: 12px;
   font-weight: 600;

@@ -64,7 +64,7 @@
     margin-top: 27px
 }
 .form-name{
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 14px;
     position: absolute;
@@ -74,7 +74,7 @@
     color: black;
 }
 .form p{
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 10px;
     margin-bottom: 1px;
@@ -95,7 +95,7 @@
     border-radius: 8px;
     height: 21px;
     background: #D9D9D9;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 10px;
     padding: 0;
@@ -186,7 +186,7 @@
 .signature-name{
     margin: 0 auto;
     margin-bottom: 6px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-size: 10px;
     font-weight: 500;
 }
@@ -205,7 +205,7 @@
     height: 26px;
     border-radius: 8px;
     color: white;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-size: 10px;
     font-weight: 700;
     border: 0 solid transparent;
@@ -230,7 +230,7 @@
     height: 26px;
     border-radius: 8px;
     color: white;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-weight: 700;
     border: 0 solid transparent;
@@ -246,7 +246,7 @@
 
 .btn-next-register-link{
     color: white;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-weight: 700;
     text-decoration: none;

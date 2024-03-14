@@ -1,5 +1,5 @@
 body{
-    background: url(../img/main-bgrnd.jpg), no-repeat;
+    background: url(../img/main-bgrnd.jpg) no-repeat;
     background-size: cover;
 }
 
@@ -62,7 +62,7 @@ body{
 }
 
 .num{
-    font-family: 'Lucida Console';
+    font-family: 'Lucida Console', sans-serif;
     color: white;
     font-size: 26px;
     font-weight: 400;
@@ -79,7 +79,7 @@ body{
 }
 
 .valid, .thru{
-    font-family: 'Lucida Console';
+    font-family: 'Lucida Console', sans-serif;
     color: white;
     font-size: 8px;
     font-weight: 400;
@@ -94,7 +94,7 @@ body{
 }
 
 .month, .year, .slash{
-    font-family: 'Lucida Console';
+    font-family: 'Lucida Console', sans-serif;
     color: white;
     font-size: 18px;
     font-weight: 400;
@@ -112,7 +112,7 @@ body{
 }
 
 .name, .surname{
-    font-family: 'Lucida Console';
+    font-family: 'Lucida Console', sans-serif;
     color: white;
     font-size: 20px;
     font-weight: 400;
@@ -156,7 +156,7 @@ body{
 }
 
 .cvv{
-    font-family: 'Lucida Console';
+    font-family: 'Lucida Console', sans-serif;
     color: white;
     font-size: 20px;
     font-weight: 400;
@@ -181,7 +181,7 @@ body{
 }
 
 .money, .currency{
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     color: white;
     font-size: 48px;
     font-weight: 700;
@@ -239,7 +239,7 @@ body{
 
 
 .menu-link-text{
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     color: white;
     font-size: 11px;
     font-weight: 600;
@@ -309,7 +309,7 @@ body{
 }
 
 .name-of-transaction{
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     color: white;
     font-size: 16px;
     font-weight: 600;
@@ -324,7 +324,7 @@ body{
 }
 
 .date, .time{
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     color: white;
     font-size: 10px;
     font-weight: 400;
@@ -341,7 +341,7 @@ body{
 }
 
 .amount, .currency-sum{
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     color: white;
     font-size: 20px;
     font-weight: 700;
@@ -382,7 +382,7 @@ body{
 }
 
 .navbar-item-link-text{
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     color: black;
     font-size: 12px;
     font-weight: 600;
@@ -391,7 +391,7 @@ body{
 }
 
 .navbar-item-link-text-active{
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     color: red;
     font-size: 12px;
     font-weight: 600;

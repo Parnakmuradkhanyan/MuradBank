@@ -34,7 +34,7 @@ body{
 
 .profile-title{
     color: white;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 800;
     font-size: 24px;
     margin-bottom: 0px;
@@ -81,7 +81,7 @@ input::file-selector-button:hover, input::file-selector-button:active{
 
 .name-label, .surname-label, .email-label, .tel-num-label, .gender-label, .nationality-label, .cityzenship-label, .date-of-birth-label, .date-of-expiry-label, .date-of-issue-label, .authority-label, .serial-number-label, .country-label, .state-label, .city-label, .zip-code-label, .address-label, .building-label, .appartment-label, .identification-number-label{
   color: white;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-size: 13px;
   font-weight: 500;
   margin-bottom: 6px;
@@ -96,7 +96,7 @@ input::file-selector-button:hover, input::file-selector-button:active{
   border: 0px solid transparent;
   border-radius: 12px;
   color: white;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
   font-weight: 600;
   margin-bottom: 6px;
@@ -117,7 +117,7 @@ input::file-selector-button:hover, input::file-selector-button:active{
   border: 0px solid transparent;
   border-radius: 12px;
   color: white;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
   font-weight: 600;
   margin-bottom: 6px;
@@ -125,7 +125,7 @@ input::file-selector-button:hover, input::file-selector-button:active{
 
 option{
   color: black;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
   font-weight: 600;
 }
@@ -143,7 +143,7 @@ option{
   border: 0px solid transparent;
   border-radius: 12px;
   color: white;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
   font-weight: 600;
   margin-bottom: 6px;
@@ -157,7 +157,7 @@ option{
   border: 0px solid transparent;
   border-radius: 12px;
   color: white;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
   font-weight: 600;
   margin-bottom: 6px;
@@ -177,7 +177,7 @@ option{
   border: 0px solid transparent;
   border-radius: 12px;
   color: white;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
   font-weight: 600;
   margin-bottom: 6px;
@@ -192,7 +192,7 @@ option{
   border: 0px solid transparent;
   border-radius: 12px;
   color: white;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
   font-weight: 600;
   margin-bottom: 6px;
@@ -207,7 +207,7 @@ option{
   border: 0px solid transparent;
   border-radius: 12px;
   color: white;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
   font-weight: 600;
   margin-bottom: 6px;
@@ -232,7 +232,7 @@ option{
   border: 0px solid transparent;
   border-radius: 12px;
   color: white;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
   font-weight: 600;
   margin-bottom: 6px;
@@ -246,7 +246,7 @@ option{
   border: 0px solid transparent;
   border-radius: 12px;
   color: white;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
   font-weight: 600;
   margin-bottom: 6px;
@@ -260,7 +260,7 @@ option{
   margin-bottom: 58px;
   background: red;
   color: white;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-size: 14px;
   font-weight: 700;
   width: 60%;
@@ -272,7 +272,7 @@ option{
 
 .save-changes-button-link{
   color: white;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-size: 14px;
   font-weight: 700;
   text-decoration: none;
@@ -281,7 +281,7 @@ option{
 
 .save-changes-button-link:active, .save-changes-button-link:hover{
   color: white;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-size: 14px;
   font-weight: 700;
   text-decoration: none;
@@ -330,7 +330,7 @@ option{
 }
 
 .navbar-item-link-text{
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   color: black;
   font-size: 12px;
   font-weight: 600;

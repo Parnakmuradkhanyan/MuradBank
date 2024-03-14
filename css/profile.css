@@ -49,7 +49,7 @@ body{
 
 .profile-title{
     color: white;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 800;
     font-size: 24px;
     margin-bottom: 0px;
@@ -65,7 +65,7 @@ body{
 
 .name, .surname{
     color: white;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 800;
     font-size: 18px;
     margin-bottom: 0px;
@@ -73,7 +73,7 @@ body{
 
 .tel-num, .email, .gender, .birthday{
     color: white;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 15px;
     margin-bottom: 0px;
@@ -102,7 +102,7 @@ body{
 
 .address-title, .passport-title, .identifiaction-code-title{
     color: white;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 900;
     font-size: 20px;
     margin-bottom: 10px;
@@ -113,7 +113,7 @@ body{
 
 .street-name, .building-number, .comma, .apt-abbr, .building-number, .appartment-number, .state, .city, .zip-code, .country{
     color: white;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 15px;
     margin-bottom: 4px;
@@ -138,7 +138,7 @@ body{
 
 .passport-data p, .identification-code-data p{
     color: white;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 15px;
     margin-bottom: 4px;
@@ -178,7 +178,7 @@ body{
 }
 
 .navbar-item-link-text{
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     color: black;
     font-size: 12px;
     font-weight: 600;

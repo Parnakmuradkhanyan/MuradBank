@@ -1,5 +1,5 @@
 body{
-    background: url(../img/deposit-bgrnd.svg), no-repeat;
+    background: url(../img/deposit-bgrnd.svg) no-repeat;
     background-size: cover;
 }
 .title-and-info{
@@ -15,7 +15,7 @@ body{
 }
 .title-deposit{
     color: white;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 800;
     font-size: 24px;
     position: absolute;
@@ -42,7 +42,7 @@ body{
 
 .class-percent-amount, .percent-symbol{
     color: white;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 40px;
 }
@@ -121,7 +121,7 @@ body{
 
 .currency-button-text{
     color: white;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 16px;
     margin-bottom: 0px;
@@ -129,7 +129,7 @@ body{
 
 .currcency-percent-button-text{
     color: white;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 15px;
     margin-bottom: 0px;
@@ -162,7 +162,7 @@ body{
 
 .months p{
     color: white;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 16px;
     margin-bottom: 5px;
@@ -177,7 +177,7 @@ body{
 
 .deposit-interst-rate p{
     color: white;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 15px;
     margin-bottom: 0px;
@@ -210,7 +210,7 @@ body{
     border: 0px solid transparent;
     border-radius: 12px;
     color: white;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 700;
     transition: all 0.2s ease;
@@ -219,7 +219,7 @@ body{
 
 .make-deposit-button-link{
     color: white;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 700;
     text-decoration: none;
@@ -297,7 +297,7 @@ body{
     margin-top: 28px;
     margin-left: 30px;
     color: white;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 800;
     margin-bottom: 12px;
@@ -307,7 +307,7 @@ body{
     display: flex;
     flex-direction: row;
     gap: 4px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     color: white;
     font-size: 13px;
     font-weight: 800;
@@ -326,7 +326,7 @@ body{
     display: flex;
     flex-direction: row;
     gap: 4px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     color: white;
     font-size: 11px;
     font-weight: 500;
@@ -349,7 +349,7 @@ body{
 }
 
 .amount, .currency-sum{
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     color: white;
     font-size: 20px;
     font-weight: 700;
@@ -394,7 +394,7 @@ body{
 }
 
 .navbar-item-link-text{
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     color: black;
     font-size: 12px;
     font-weight: 600;
@@ -403,7 +403,7 @@ body{
 }
 
 .navbar-item-link-text-active{
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     color: red;
     font-size: 12px;
     font-weight: 600;
