@@ -132,6 +132,7 @@ body{
     margin-top: 50px;
     padding-top: 30px;
     padding-bottom: 68px;
+    margin-bottom: 30px;
 }
 
 .international-operators-title{
@@ -161,6 +162,7 @@ body{
     flex-direction: row;
     gap: 38px;
     justify-content: center;
+
 
 }
 
@@ -226,8 +228,7 @@ body{
 }
 
 .list-container{
-    position: sticky;
-    bottom: 0;
+    position: relative;
     width: 100%;
     height: auto;
     background: rgba(0, 0, 0, 0.7);
@@ -256,6 +257,7 @@ body{
     position: relative;
     margin-top: 36px;
     margin-left: 35px;
+    margin-bottom: 15px;
 }
 
 .esim-contatiner{
@@ -269,6 +271,7 @@ body{
     display: flex;
     flex-direction: column;
     padding-top: 14px;
+    margin-bottom: 38px;
 }
 
 .operator-tariff-phone_num-info-div{
@@ -292,27 +295,157 @@ body{
 }
 
 .tariff-phone_num-info-div{
+    position: relative;
     display: flex;
     flex-direction: column;
 }
 
-.tariff-name{
+.tariff-name-my-esims{
+    position: relative;
+    display: flex;
+    margin-left: 0px;
     color: white;
     font-family: 'Inter', sans-serif;
     font-size: 15px;
     font-weight: 500;
     margin-bottom: 0px;
-    text-align: left;
 }
 
 .phone-num{
+    position: relative;
+    display: flex;
+    margin-left: 0px;
     color: white;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 900;
     margin-bottom: 0px;
-    text-align: left;
 }
+
+.decoration-line{
+    margin-top: 8px;
+}
+
+.tariff-benefits{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.minutes, .internet{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+
+.internet-benefit, .minutes-benefit{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 10px;
+    font-weight: 600;
+    margin-bottom: 0px;
+
+}
+
+.eSim-balance-container{
+    position: relative;
+    margin-top: 28px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.balance-title{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.internet-balance-text-container{
+    position: relative;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 38px;
+    align-items: center;
+}
+
+.internet-balance-container, .minutes-balance-container, .on_account-balance-container, .date-month, .due-sum{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+}
+
+.user-internet-text, .user-minutes-text, .user-on_account-text, .text-next_payment, .due-text{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.user-internet-balance, .user-minutes-balance, .user-on_account-balance, .user-due, .month, .date{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.gb-text, .minutes-text, .dollars-text{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+.minutes-balance-text-container{
+    position: relative;
+    margin-top: 6px;
+    display: flex;
+    flex-direction: row;
+    gap: 38px;
+    align-items: center;
+}
+
+.on_account-balance-text-container{
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+    align-items: center;
+}
+
+.next_payment-time{
+    position: relative;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+    align-items: center;
+}
+
+.required-due{
+    position: relative;
+    margin-top: 4px;
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+
 
 .navbar{
     width: 100%;

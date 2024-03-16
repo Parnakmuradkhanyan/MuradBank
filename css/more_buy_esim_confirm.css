@@ -1,0 +1,110 @@
+body{
+    background: url(../img/more-bgrnd.svg) no-repeat;
+    background-size: cover;
+}
+
+.buy-eSIM-title-div{
+    display: flex;
+    gap: 16px;
+    margin-top: 26px;
+    margin-left: 28px;
+    align-items: center;
+}
+
+.buy-eSIM-title{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.confirm-title{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.puchase-confirm-div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.due-div{
+    position: relative;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(8px);
+    border-radius: 12px;
+    padding: 8px 0px 8px 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.due-text{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.due-container{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+}
+
+.due-sum{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.dollar-text{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+.confirm-btn{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    background: red;
+    border: 0px solid transparent;
+    border-radius: 12px;
+    padding: 12px 44px 12px 44px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    transition: all 0.2s ease;
+}
+
+.confirm-btn:hover{
+    background: orangered;
+}
+
+.confirm-btn:active{
+    background: orangered;
+    filter: brightness(80%);
+}

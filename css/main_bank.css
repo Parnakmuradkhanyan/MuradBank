@@ -79,7 +79,7 @@ body{
 }
 
 .valid, .thru{
-    font-family: 'Lucida Console', sans-serif;
+    font-family: 'Lucida Console', 'Consolas';
     color: white;
     font-size: 8px;
     font-weight: 400;
@@ -94,7 +94,7 @@ body{
 }
 
 .month, .year, .slash{
-    font-family: 'Lucida Console', sans-serif;
+    font-family: 'Lucida Console', 'Consolas';
     color: white;
     font-size: 18px;
     font-weight: 400;
@@ -112,7 +112,7 @@ body{
 }
 
 .name, .surname{
-    font-family: 'Lucida Console', sans-serif;
+    font-family: 'Lucida Console', 'Consolas';
     color: white;
     font-size: 20px;
     font-weight: 400;
@@ -156,7 +156,7 @@ body{
 }
 
 .cvv{
-    font-family: 'Lucida Console', sans-serif;
+    font-family: 'Lucida Console', 'Consolas';
     color: white;
     font-size: 20px;
     font-weight: 400;
@@ -164,7 +164,7 @@ body{
 }
 
 .your-balance-text{
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     color: white;
     font-size: 24px;
     font-weight: 800;
