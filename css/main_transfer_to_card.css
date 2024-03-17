@@ -146,6 +146,19 @@ body{
     font-size: 16px;
 }
 
+.purpose-of-payment-input::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+    background-color: transparent;
+}
+.purpose-of-payment-input::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 0, 0, 0);
+}
+.purpose-of-payment-input::-webkit-scrollbar-track{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
 .confirm-btn{
     position: relative;
     margin: 0 auto;
