@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="../js/manifest.webmanifest">
+    <link rel="shortcut icon" href="../icons/website-icon.svg" type="image/x-icon">
+    <link rel="apple-touch-icon" href="../icons/icon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../icons/152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../icons/180.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="../icons/167.png">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/main_iban_payment_done_successfully.css">
+    <title>MuradBank - IBAN Payment Done Successfully</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="iban-payment-title-div">
+                    <a href="./main_bank.html"><img src="../icons/arrow-back-white.svg" alt="Back" class="main-back"></a>
+                    <h1 class="iban-payment-title">IBAN Payment</h1>
+                </div>
+            </div>
+            <div class="col-12">
+                <h2 class="operation-done-successfully-text">Operation was done successfully</h2>
+            </div>
+
+            <div class="col-12 doc-col">
+                <div class="document-receipt-container img-fluid" id="pdf">
+
+                    <div class="document-name-container">
+                        <h1 class="document-name">Receipt №</h1>
+                        <h2 class="document-number">4555054</h2>
+                    </div>
+
+                    <div class="receiver-sender-info-container">
+
+                        <div class="sender-container">
+                            <h3 class="sender-title">Sender</h3>
+
+                            <div class="number-of-card-container">
+                                <h4 class="number-of-card-title">Number of card</h4>
+                                <p class="number-of-card">1234123412341234</p>
+                            </div>
+
+                            <div class="payer-container">
+                                <h4 class="payer-title">Payer</h4>
+                                <p class="payer">John Smith</p>
+                            </div>
+
+                            <div class="payed-container">
+                                <h4 class="payed-title">Payed</h4>
+                                <div class="date-time-container">
+                                    <div class="date-container">
+                                        <p>23</p>
+                                        <p>.</p>
+                                        <p>08</p>
+                                        <p>.</p>
+                                        <p>2023</p>
+                                    </div>
+                                    <div class="time-container">
+                                        <p>12</p>
+                                        <p>:</p>
+                                        <p>43</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="receiver-container">
+                            <h3 class="receiver-title">Receiver</h3>
+
+                            <div class="purpose-of-payment-container">
+                                <h4 class="purpose-of-payment-title">Purpose of payment</h4>
+                                <p class="purpose-of-payment">Payment for new studying year, John Smith <br>
+                                    2023</p>
+                            </div>
+
+                            <div class="iban-container">
+                                <h4 class="iban-title">IBAN</h4>
+                                <p class="iban">UK3838383838383</p>
+                            </div>
+
+                            <div class="name-of-receiver-container">
+                                <h4 class="name-of-receiver-title">Name of Receiver</h4>
+                                <p class="name-of-receiver">London University of Technology</p>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="sum-info-container">
+                        <h3 class="sum-title">Sum:</h3>
+                        <div class="sum-container">
+                            <p>500.34</p>
+                            <p>$</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+
+            <div class="col-12">
+                <button class="download-btn" id="download-btn"><img src="../icons/download-icon.svg" alt="Download icon" class="download-icon"><p>Download</p></button>
+                   
+                </form>
+            </div>
+            <div class="col-12">
+                <form action="./main_bank.html" class="finish-form">
+                    <button class="finish-btn">Finish</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="navbar">
+        <ul class="nav-list">
+            <li><a href="./main_bank.html"><img src="../icons/main-icon-active.svg" alt="Main" class="navbar-image"></a><a href="./main_bank.html" class="navbar-item-link-text-active">Main</a></li>
+            <li><a href=""><img src="../icons/security-icon-not-active.svg" alt="Security" class="navbar-image"></a><a href="" class="navbar-item-link-text">Security</a></li>
+            <li><a href="./deposit.html"><img src="../icons/deposit-icon-not-active.svg" alt="Deposit" class="navbar-image"></a><a href="./deposit.html" class="navbar-item-link-text">Deposit</a></li>
+            <li><a href=""><img src="../icons/installment-icon-not-active.svg" alt="Installment" class="navbar-image"></a><a href="" class="navbar-item-link-text">Installment</a></li>
+            <li><a href="./more.html"><img src="../icons/more-icon-not-active.svg" alt="More" class="navbar-image"></a><a href="./more.html" class="navbar-item-link-text">More</a></li>
+            <li><a href="./profile.html"><img src="../icons/user-not-logged-in.svg" alt="User" class="person-profile"></a></li>
+        </ul>
+    </div>
+
+    <script src="../js/main_iban_payment_done_successfully.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script> 
+
+</body>
+</html>

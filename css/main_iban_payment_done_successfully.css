@@ -1,0 +1,236 @@
+body{
+    background: url(../img/another-transaction-bgrnd.svg) no-repeat;
+    background-size: cover;
+}
+
+
+.iban-payment-title-div{
+    display: flex;
+    gap: 16px;
+    margin-top: 38px;
+    margin-left: 28px;
+    align-items: center;
+}
+
+.iban-payment-title{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.operation-done-successfully-text{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    margin-top: 33px;
+    margin-left: 8px;
+    margin-bottom: 15px;
+}
+
+.document-receipt-container{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+    background: url(../img/main-another-transaction-iban-operation-done-document-receipt-blank.svg) no-repeat;
+    background-size: cover;
+    padding: 26px 105px 80px 28px;
+}
+
+.doc-col{
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.document-name-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    margin-bottom: 11px;
+}
+
+.document-name, .document-number{
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.receiver-sender-info-container{
+    position: relative;
+    display: flex;
+    gap: 60px;
+    margin-bottom: 10px;
+}
+
+.sender-title, .receiver-title{
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 8px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+
+.number-of-card-container, .purpose-of-payment-container, .iban-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.payer-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.payed-container, .name-of-receiver-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    position: relative;
+}
+
+.date-time-container{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.date-container, .time-container{
+    display: flex;
+}
+
+.time-container p, .date-container p{
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 6px;
+    font-weight: 500;
+    margin-bottom: 0px; 
+}
+
+.number-of-card-title, .payer-title, .payed-title, .purpose-of-payment-title, .iban-title, .name-of-receiver-title{
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 6px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.number-of-card, .payer, .purpose-of-payment, .iban, .name-of-receiver{
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 6px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+
+.sum-info-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    margin-left: 185px;
+    margin-bottom: 80px;
+}
+
+.sum-title{
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 6px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.sum-container{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    align-items: center;
+}
+
+.sum-container p{
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 8px;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+.downolad-doc-form{
+    position: relative;
+    margin-top: 30px;
+}
+
+.download-btn{
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    backdrop-filter: blur(8px);
+    padding: 14px 20px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 12px;
+    transition: all 0.2s ease;
+}
+
+.download-btn p{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.download-btn:hover{
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.download-btn:active{
+    filter: brightness(80%);
+}
+
+.finish-form{
+    position: relative;
+    margin-top: 30px;
+}
+
+.finish-btn{
+    position: relative;
+    margin-left: auto;
+    display: flex;
+    background: red;
+    border: 0px solid transparent;
+    border-radius: 8px;
+    padding: 10px 36px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all 0.2s ease;
+}
+
+.finish-btn:hover, .finish-btn:active{
+    background: orangered;
+}
+
+.finish-btn:active{
+    filter: brightness(80%);
+}
