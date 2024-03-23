@@ -47,128 +47,6 @@ body{
     padding-right: 7px;
 }
 
-.document-name-container{
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    gap: 4px;
-    margin-bottom: 11px;
-}
-
-.document-name, .document-number{
-    color: black;
-    font-family: 'Inter', sans-serif;
-    font-size: 10px;
-    font-weight: 700;
-    margin-bottom: 0px;
-}
-
-.receiver-sender-info-container{
-    position: relative;
-    display: flex;
-    gap: 60px;
-    margin-bottom: 10px;
-}
-
-.sender-title, .receiver-title{
-    color: black;
-    font-family: 'Inter', sans-serif;
-    font-size: 8px;
-    font-weight: 700;
-    margin-bottom: 5px;
-}
-
-
-.number-of-card-container, .purpose-of-payment-container, .iban-container{
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-    position: relative;
-    margin-bottom: 12px;
-}
-
-.payer-container{
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-    position: relative;
-    margin-bottom: 10px;
-}
-
-.payed-container, .name-of-receiver-container{
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-    position: relative;
-}
-
-.date-time-container{
-    display: flex;
-    flex-direction: row;
-    gap: 4px;
-}
-
-.date-container, .time-container{
-    display: flex;
-}
-
-.time-container p, .date-container p{
-    color: black;
-    font-family: 'Inter', sans-serif;
-    font-size: 6px;
-    font-weight: 500;
-    margin-bottom: 0px; 
-}
-
-.number-of-card-title, .payer-title, .payed-title, .purpose-of-payment-title, .iban-title, .name-of-receiver-title{
-    color: black;
-    font-family: 'Inter', sans-serif;
-    font-size: 6px;
-    font-weight: 600;
-    margin-bottom: 0px;
-}
-
-.number-of-card, .payer, .purpose-of-payment, .iban, .name-of-receiver{
-    color: black;
-    font-family: 'Inter', sans-serif;
-    font-size: 6px;
-    font-weight: 500;
-    margin-bottom: 0px;
-}
-
-
-.sum-info-container{
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    gap: 4px;
-    align-items: center;
-    margin-left: 185px;
-    margin-bottom: 80px;
-}
-
-.sum-title{
-    color: black;
-    font-family: 'Inter', sans-serif;
-    font-size: 6px;
-    font-weight: 600;
-    margin-bottom: 0px;
-}
-
-.sum-container{
-    display: flex;
-    flex-direction: row;
-    gap: 2px;
-    align-items: center;
-}
-
-.sum-container p{
-    color: black;
-    font-family: 'Inter', sans-serif;
-    font-size: 8px;
-    font-weight: 900;
-    margin-bottom: 0px;
-}
 
 .downolad-doc-form{
     position: relative;
@@ -182,6 +60,7 @@ body{
     backdrop-filter: blur(8px);
     padding: 14px 20px;
     position: relative;
+    margin-top: 50px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -234,3 +113,74 @@ body{
 .finish-btn:active{
     filter: brightness(80%);
 }
+
+.navbar{
+    width: 100%;
+    height: 88px;
+    position: fixed;
+    bottom: 0px;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.nav-list{
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7%;
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  
+  .nav-list li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .navbar-item-link-text{
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    text-decoration: none;
+  }
+  
+  .navbar-item-link-text-active{
+    font-family: 'Inter', sans-serif;
+    color: red;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    text-decoration: none;
+  }
+  
+  .navbar-item-link-text:hover{
+    color: black;
+  }
+  
+  .navbar-item-link-text-active:hover{
+    color: red;
+  }
+  
+  .person-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    padding-bottom: 7.5px;
+  
+  }
+
