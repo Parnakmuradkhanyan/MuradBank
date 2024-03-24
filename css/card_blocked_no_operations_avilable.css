@@ -1,0 +1,81 @@
+body{
+    background: url(../img/card-blocked-no-operaton-avilable-bgrnd.svg) no-repeat;
+    background-size: cover;
+}
+
+.more-back{
+    position: relative;
+    margin-top: 54px;
+    margin-left: 24px;
+}
+
+.we-are-sorry-message{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 56px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.you-have-two-choices-text{
+    position: relative;
+    margin-left: 32px;
+    margin-top: 44px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.buttons-container{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 46px;
+}
+
+.unlock-the-card-btn, .reisue-the-card-btn{
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(8px);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 0px solid transparent;
+    border-radius: 12px;
+    padding: 38px 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease;
+}
+
+.unblock-the-card-icon, .reissue-the-card-icon{
+    width: 52px;
+    height: 52px;
+}
+
+.unblock-the-card-text, .reissue-the-card-text{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.unlock-the-card-btn:hover, .reisue-the-card-btn:hover{
+    background: rgba(255, 255, 255, 0.44);
+}
+
+.unlock-the-card-btn:active, .reisue-the-card-btn:active{
+    filter: brightness(80%);
+}
