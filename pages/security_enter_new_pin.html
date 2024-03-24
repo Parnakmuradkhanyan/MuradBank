@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="../js/manifest.webmanifest">
+    <link rel="shortcut icon" href="../icons/website-icon.svg" type="image/x-icon">
+    <link rel="apple-touch-icon" href="../icons/icon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../icons/152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../icons/180.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="../icons/167.png">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/security_enter_new_pin.css">
+    <title>MuradBank - Enter New Pin</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="new_pin-title-div">
+                    <a href="./security.html"><img src="../icons/arrow-back-white.svg" alt="Back" class="security-back"></a>
+                    <h1 class="new_pin-title">New PIN-Code</h1>
+                </div>
+                <div class="all-elements">
+                    <img src="../icons/user-not-logged-in.svg" class="user-profile-pic" alt="User Profile Pic">
+                    <h1>Hello, User</h1>
+                    <p class="enter-pin-text">Enter new PIN-Code</p>
+                    <div class="circles">
+                        <div class="circle circle-1" id="circle-1"></div>
+                        <div class="circle circle-2" id="circle-2"></div>
+                        <div class="circle circle-3" id="circle-3"></div>
+                        <div class="circle circle-4" id="circle-4"></div>
+                    </div>
+                    <div class="buttons">
+                        <div class="btn btn-1" onclick="handleButtonClick(1)">1</div>
+                        <div class="btn btn-2" onclick="handleButtonClick(2)">2</div>
+                        <div class="btn btn-3" onclick="handleButtonClick(3)">3</div>
+                        <div class="btn btn-4" onclick="handleButtonClick(4)">4</div>
+                        <div class="btn btn-5" onclick="handleButtonClick(5)">5</div>
+                        <div class="btn btn-6" onclick="handleButtonClick(6)">6</div>
+                        <div class="btn btn-7" onclick="handleButtonClick(7)">7</div>
+                        <div class="btn btn-8" onclick="handleButtonClick(8)">8</div>
+                        <div class="btn btn-9" onclick="handleButtonClick(9)">9</div>
+                        <div class="btn-none">.</div>
+                        <div class="btn btn-0" onclick="handleButtonClick(0)">0</div>
+                        <img src="../icons/earse.svg" class="clear" onclick="passWordClear()" alt="Clear">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar">
+        <ul class="nav-list">
+            <li><a href="./main_bank.html"><img src="../icons/main-icon-not-active.svg" alt="Main" class="navbar-image"></a><a href="./main_bank.html" class="navbar-item-link-text">Main</a></li>
+            <li><a href="./security.html"><img src="../icons/security-icon-active.svg" alt="Security" class="navbar-image"></a><a href="./security.html" class="navbar-item-link-text-active">Security</a></li>
+            <li><a href="./deposit.html"><img src="../icons/deposit-icon-not-active.svg" alt="Deposit" class="navbar-image"></a><a href="./deposit.html" class="navbar-item-link-text">Deposit</a></li>
+            <li><a href="./installment.html"><img src="../icons/installment-icon-not-active.svg" alt="Installment" class="navbar-image"></a><a href="./installment.html" class="navbar-item-link-text">Installment</a></li>
+            <li><a href="./more.html"><img src="../icons/more-icon-not-active.svg" alt="More" class="navbar-image"></a><a href="./more.html" class="navbar-item-link-text">More</a></li>
+            <li><a href="./profile.html"><img src="../icons/user-not-logged-in.svg" alt="User" class="person-profile"></a></li>
+        </ul>
+    </div>
+
+    <script src="../js/security_enter_new_pin.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>

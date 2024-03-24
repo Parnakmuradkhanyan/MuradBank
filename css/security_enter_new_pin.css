@@ -1,0 +1,221 @@
+body{
+    background: url(../img/main-bgrnd.jpg) no-repeat;
+    background-size: cover;
+}
+
+.new_pin-title-div{
+    display: flex;
+    gap: 16px;
+    margin-top: 26px;
+    margin-left: 28px;
+    align-items: center;
+}
+
+.new_pin-title{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+
+.all-elements{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 62px;
+    margin-bottom: 66px;
+}
+
+h1{
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 9px;
+    color: white;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.enter-pin-text{
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.user-profile-pic{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+.circles{
+    position: relative;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 55px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.btn-none{
+    width: 0px;
+    height: 0px;
+}
+
+
+.buttons{
+    position: relative;
+    width: 267px;
+    height: 367px;
+    margin: 0 auto;
+    padding: 10px;
+    
+    display: grid;
+    grid-template-areas:
+    "btn-1 btn-2 btn-3"
+    "btn-4 btn-5 btn-6"
+    "btn-7 btn-8 btn-9"
+    "btn-none btn-0 clear";
+    justify-content: center;
+    align-items: center;
+    grid-gap: 19px 24px;
+}
+
+.clear{
+    padding-left: 16px;
+    cursor: pointer;
+}
+
+
+
+.circle{
+    width: 15px;
+    height: 15px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.circle-password-fill{
+    width: 15px;
+    height: 15px;
+    background: white;
+    border-radius: 50%;
+}
+
+
+.btn{
+    width: 75px;
+    height: 75px;
+    background: rgba(0, 0, 0, 0.28);
+    border-radius: 50%;
+    backdrop-filter: blur(8px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.btn:hover, .btn:active{
+    width: 75px;
+    height: 75px;
+    background: rgba(255, 255, 255, 0.41);
+    border-radius: 50%;
+    backdrop-filter: blur(8px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 27px;
+    font-weight: 500;
+}
+
+
+.navbar{
+    width: 100%;
+    height: 88px;
+    position: fixed;
+    bottom: 0px;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.nav-list{
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7%;
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  
+  .nav-list li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .navbar-item-link-text{
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    text-decoration: none;
+  }
+  
+  .navbar-item-link-text-active{
+    font-family: 'Inter', sans-serif;
+    color: red;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    text-decoration: none;
+  }
+  
+  .navbar-item-link-text:hover{
+    color: black;
+  }
+  
+  .navbar-item-link-text-active:hover{
+    color: red;
+  }
+  
+  .person-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    padding-bottom: 7.5px;
+  
+  }
+
