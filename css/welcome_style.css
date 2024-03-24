@@ -18,6 +18,7 @@
 }
 
 .welcome-create-account-button{
+    width: 200px;
     padding: 13px 31px 13px 32px;
     margin: 0 auto;
     background-color: red;
@@ -31,6 +32,37 @@
     justify-content: center;
 
 }
+
+.email-input{
+    width: 90%;
+    position: relative;
+    margin-bottom: 12px;
+    background: rgb(219, 219, 219);
+    border: 0px solid transparent;
+    border-radius: 8px;
+    padding: 8px 0px 8px 13px;
+}
+
+.password-input{
+    width: 90%;
+    position: relative;
+    margin-bottom: 20px;
+    background: rgb(219, 219, 219);
+    border: 0px solid transparent;
+    border-radius: 8px;
+    padding: 8px 0px 8px 13px;
+}
+
+.sign-up-text{
+    margin-top: 12px;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
 .logo-welcome{
     width: 281px;
     height: 69px;
@@ -38,6 +70,41 @@
     justify-content: center;
     margin-bottom: 41px;
 }
+
+.login-text{
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.login-btn{
+    width: 200px;
+    background: red;
+    border: 0px solid transparent;
+    border-radius: 23px;
+    padding: 13px;
+    margin: 0 auto;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+
+.login-btn:hover, .login-btn:active{
+    background: orangered;
+}
+
+.login-btn:active{
+    filter: brightness(80%);
+}
+
+
 .welcome-create-account-button:hover{
     background-color: orangered;
     color: white;
