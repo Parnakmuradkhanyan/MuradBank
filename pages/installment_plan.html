@@ -11,48 +11,51 @@
     <link rel="apple-touch-icon" sizes="167x167" href="../icons/167.png">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/installment.css">
-    <title>MuradBank - Installment</title>
+    <link rel="stylesheet" href="../css/installment_plan.css">
+    <title>MuradBank - Installment Plan</title>
 </head>
 <body>
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h1 class="installment-title">Installment</h1>
-            </div>
-            <div class="col-12">
-                <div class="user-limit-text-container">
-                    <h2 class="text-title">Your limit is</h2>
-                    <div class="user-limit">
-                        <p>12000</p>
-                        <p>$</p>
-                    </div>
+                <div class="installment-title-div">
+                    <a href="./installment.html"><img src="../icons/arrow-back-white.svg" alt="Back" class="installment-back"></a>
+                    <h1 class="installment-title">Installment</h1>
                 </div>
             </div>
+            <div class="col-12">
+                <form action="./installment_plan_operation_done_successfully.html" class="choose-amount">
+
+                    <label for="" class="select-amount-label">Select the amount</label>
+                    <div class="sum-container">
+                        <input type="number" placeholder="1000.05" class="sum-input" id="installmentSumInput">
+                        <p class="dollar-text">$</p>
+                    </div>
+
+                    <div class="months-input-container">
+                        <button class="btn-minus" id="minusButton" type="button"><img src="../icons/minus-deposit-month-icon.svg" alt="-" class="btn-minus-icon"></button>
+                        <div class="months-container">
+                            <p class="months-quantity" id="installmentMonths">12</p>
+                            <p class="months-text">months</p>
+                        </div>
+                        <button class="btn-plus" id="plusButton" type="button"><img src="../icons/plus-deposit-moths-icon.svg" alt="+" class="btn-plus-icon"></button>
+                    </div>
+
+                    <div class="monthly-payment-container">
+                        <p class="monthly-payment-text">Monthly payment</p>
+                        <div class="line"></div>
+                        <div class="monthly-sum-payment">
+                            <p id="monthly-payment"></p>
+                            <p>$</p>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-confirm">Continue</button>
+
+
+                </form>
+            </div>
         </div>
-    </div>
-
-    <div class="list-container">
-        <div class="decoration-line"></div>
-        <ul class="installment-options">
-            <li>
-                <a href="./installment_plan.html" class="link-installment-options">
-                    <img src="../icons/intsallment-installment-plan.svg" alt="Icon" class="icon-installment-options"><p>Installment plan</p>
-                </a>
-            </li>
-            <li>
-                <a href="./installment_buying_in_parts.html" class="link-installment-options">
-                    <img src="../icons/installment-installment-buying-in-parts.svg" alt="Icons" class="icon-installment-options"><p>Buying in parts</p>
-                </a>
-            </li>
-
-            <li>
-                <a href="" class="link-installment-options">
-                    <img src="../icons/installment-cash-loan.svg" alt="Icons" class="icon-installment-options"><p>Cash loan</p>
-                </a>
-            </li>
-
-        </ul>
     </div>
 
     <div class="navbar">
@@ -65,6 +68,7 @@
             <li><a href="./profile.html"><img src="../icons/user-not-logged-in.svg" alt="User" class="person-profile"></a></li>
         </ul>
     </div>
+    <script src="../js/installment_plan.js"></script>
     <script src="../js/bootstrap.bundle.min.js"></script> 
 </body>
 </html>

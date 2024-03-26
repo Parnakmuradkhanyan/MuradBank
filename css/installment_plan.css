@@ -1,0 +1,289 @@
+body{
+    background: url(../img/installment-bgrnd.svg) no-repeat;
+    background-size: cover;
+}
+
+.installment-title-div{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    position: relative;
+    margin-top: 26px;
+    margin-left: 28px;
+}
+
+.installment-title{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.select-amount-label{
+    position: relative;
+    margin-top: 60px;
+    margin-left: 30px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 20;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.sum-container{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 41px;
+    width: 80%;
+    height: 72px;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.sum-input{
+    width: 80%;
+    height: 72px;
+    background: none;
+    border: 0px solid transparent;
+    border-radius: 12px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+}
+
+
+.dollar-text{
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    margin-right: 23px;
+    transform: translate(0%, -50%);
+    margin-bottom: 0px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.months-input-container{
+    width: 80%;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn-minus, .btn-plus{
+    background: transparent;
+    border: 0px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease;
+}
+
+.btn-minus:hover, .btn-plus:hover{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.32);
+    filter: brightness(90%);
+}
+
+.btn-minus:active, .btn-plus:active{
+    filter: brightness(80%);
+}
+
+.months-container{
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: center;
+}
+
+.months-quantity{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.months-text{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.monthly-payment-container{
+    width: 80%;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 14px;
+    padding-bottom: 24px;
+}
+
+.monthly-payment-text{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    margin-left: 14px;
+
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
+}
+
+.monthly-sum-payment{
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    gap: 8px;
+}
+
+.monthly-sum-payment p{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 26px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 14px;
+}
+
+.btn-confirm{
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    background: red;
+    border: 0px solid transparent;
+    border-radius: 12px;
+    padding: 16px 83px;
+    display: flex;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    transition: all 0.2s ease;
+}
+
+.btn-confirm:active, .btn-confirm:hover{
+    background: orangered;
+}
+
+.btn-confirm:active{
+    filter: brightness(80%);
+}
+
+.navbar{
+    width: 100%;
+    height: 88px;
+    position: sticky;
+    bottom: 0px;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list{
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7%;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.nav-list li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navbar-item-link-text{
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    text-decoration: none;
+}
+
+.navbar-item-link-text-active{
+    font-family: 'Inter', sans-serif;
+    color: red;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    text-decoration: none;
+}
+
+.navbar-item-link-text:hover{
+    color: black;
+}
+
+.navbar-item-link-text-active:hover{
+    color: red;
+}
+
+.person-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    padding-bottom: 7.5px;
+
+}
