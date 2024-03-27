@@ -19,12 +19,12 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <form name="user_info" action="" method="get" class="form">
+                <form name="user_info" action="./main_bank.html" method="get" class="form">
                     <h1>Please write following information to continue</h1>
                     <p class="email-label">Email</p>
-                    <input type="email" name="user_email" placeholder="example@mail.com" class="email-input" id="userEmail">
+                    <input type="email" name="user_email" placeholder="example@mail.com" class="email-input" id="userEmail" required>
                     <p class="tel-num-label">Telephone Number</p>
-                    <input type="tel" name="user_telephoneNum" placeholder="+380440000000" class="tel-num-input" id="userTelephoneNum">
+                    <input type="tel" name="user_telephoneNum" placeholder="+380440000000" class="tel-num-input" id="userTelephoneNum" required="true">
                     <button type="submit" class="create-account-button"><a href="./type_password.html" class="create-account-button-link">Create account</a></button>
                 </form>
             </div>

@@ -46,6 +46,7 @@
     top: 12px;
     left: 7px;
     padding-left: 18px;
+    padding-top: 25px;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.425);
 }
 
@@ -58,10 +59,11 @@
     top: 294px;
     left: 7px;
     padding-left: 18px;
+    padding-top: 30px;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.425);
 }
 .form{
-    margin-top: 27px
+    margin-top: 30px
 }
 .form-name{
     font-family: 'Inter', sans-serif;
