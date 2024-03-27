@@ -6,6 +6,7 @@
  * Copyright 2016 Szymon Nowak
  * Released under the MIT license
  */
+
 var SignaturePad = (function(document) {
     "use strict";
 

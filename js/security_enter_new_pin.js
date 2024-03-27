@@ -1,4 +1,7 @@
+/*Модель*/
+
 class TypePasswordModel {
+
     constructor() {
         this.password = "";
     }
@@ -24,26 +27,38 @@ class TypePasswordModel {
     }
 }
 
+/*Контроллер*/
+
 class TypePasswordController {
+
     constructor(model) {
+
         this.model = model;
+
     }
 
     handleButtonClick(digit) {
+
         this.model.addDigit(digit);
         this.updateCircles();
+
         if (this.model.isComplete()) {
             this.model.checkPassword();
         }
+
     }
 
     passWordClear() {
+
         this.model.clear();
         this.updateCircles();
+
     }
 
     updateCircles() {
+
         const circles = ["circle-1", "circle-2", "circle-3", "circle-4"];
+
         for (let i = 0; i < circles.length; i++) {
             const circle = document.getElementById(circles[i]);
             if (i < this.model.password.length) {
@@ -52,16 +67,23 @@ class TypePasswordController {
                 circle.classList.remove("circle-password-fill");
             }
         }
+
     }
 }
+
+/*Ініціалізація*/
 
 const passwordModel = new TypePasswordModel();
 const passwordController = new TypePasswordController(passwordModel);
 
 function handleButtonClick(digit) {
+
     passwordController.handleButtonClick(digit);
+    
 }
 
 function passWordClear() {
+
     passwordController.passWordClear();
+
 }

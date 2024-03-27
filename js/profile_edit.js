@@ -1,12 +1,17 @@
+/*Модель*/
+
 class Model {
+
    constructor() {
        
    }
 
-
 }
 
+/*Вид*/
+
 class View {
+
    constructor() {
 
        this.userPhoto = document.getElementById('userPhoto');
@@ -22,9 +27,14 @@ class View {
    displayImage(src) {
        this.previewImage.src = src;
    }
+
 }
 
+
+/*Контролер*/
+
 class Controller {
+
    constructor(model, view) {
        this.model = model;
        this.view = view;
@@ -44,7 +54,10 @@ class Controller {
        }
        this.view.clearInput();
    }
+
 }
+
+/*Ініціалізація*/
 
 const model = new Model();
 const view = new View();
